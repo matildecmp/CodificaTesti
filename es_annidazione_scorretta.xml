@@ -12,3 +12,18 @@ Date: 08/03/2024 -->
         <annidato></annidato>
     </figlio>
 </radice>
+
+<!-- RISULTATO DELLA VALIDAZIONE:
+
+matilde@LAPTOP-R6LKDTDR:/mnt/c/Users/Matilde/OneDrive/Desktop/UNI/Codifica di testi$ xmllint --valid es_annidazione_scorretta.xml
+es_annidazione_scorretta.xml:7: validity error : Validation failed: no DTD found !
+<radice>
+       ^
+es_annidazione_scorretta.xml:14: parser error : Opening and ending tag mismatch: figlio line 9 and radice
+</radice>
+         ^
+es_annidazione_scorretta.xml:14: parser error : Premature end of data in tag figlio line 9
+</radice>
+         ^
+es_annidazione_scorretta.xml:14: parser error : Premature end of data in tag radice line 7
+</radice>-->
