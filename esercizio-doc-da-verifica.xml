@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- documento xml da validare -->
+<!-- 
+    file: esercizio-doc-da-validare
+    nome: MATILDE CAMPANARDI
+    data: 11/03/24
+-->
+
+<!-- corpo del documento XML-->
+<elementoRadice>
+    <elementoFiglio>
+        <elementoAnnidato>
+        </elementoAnnidato>
+    </elementoFiglio>
+    <elementoFiglio>
+        <elementoAnnidato>
+            <elementoAnnidato>
+                <elementoFiglio></elementoFiglio> <!-- Aggiunto tag di chiusura -->
+            </elementoAnnidato>
+        </elementoAnnidato> <!-- </elementoFiglio> sostituito con </elementoAnnidato> -->
+        <elementoAnnidato>
+            <elementoFiglio>
+                <elementoAnnidato></elementoAnnidato> <!-- Aggiunto come figlio di <elementoFiglio> di riga 22-->
+            </elementoFiglio>
+        </elementoAnnidato> <!-- Aggiunto tag di chiusura-->
+    </elementoFiglio> <!-- Aggiunto tag di chiusura -->
+    <elementoFiglio></elementoFiglio> <!-- Aggiunto tag di apertura -->
+    <elementoFiglio></elementoFiglio> <!-- Aggiunto come sibling di <elementoFiglio> di riga 28 -->
+</elementoRadice>
+
+<!-- epilogo -->
