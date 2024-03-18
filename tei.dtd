@@ -1,3 +1,7 @@
+<!-- Author: Matilde Campanardi
+Date: 18/03/2024 
+Ref: "dich_elem_e_attr.xml" -->
+
 <!ELEMENT TEI (header, facsimile?, testo+, r1, r2)>
 
 <!ELEMENT header (#PCDATA)>
