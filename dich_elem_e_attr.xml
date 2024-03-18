@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei.dtd">
+<TEI>
+    <header type="intestazione" lang="it"></header>
+    <facsimile source="nomefile.jpg" ref="r1 r2"></facsimile>
+    <testo id="t1" type="tipo1">
+        <seg>Segmento di testo</seg>
+    </testo>
+    <testo id="t2"></testo>
+    <r1 id="r1"></r1>
+    <r2 id="r2"></r2>
+</TEI>
