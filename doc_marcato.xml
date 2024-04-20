@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Author: Matilde Campanardi
+Date: 20/04/2024
+Validato con xmllint -->
+<!DOCTYPE TEI SYSTEM "gramm_doc_marcato.dtd">
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Esempio di marcatura TEI</title>
+                <author>Matilde Campanardi</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Nome della casa editrice</publisher>
+                <date>2024</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Testo di circa 3000 caratteri</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="introduzione">
+                <p>Il sole sorgeva timidamente all'orizzonte, tingendo il cielo di sfumature rosate e arancioni. Era l'alba di un nuovo giorno nella piccola cittadina di Greenfield. Le prime luci dell'alba danzavano tra le fronde degli alberi, mentre il canto degli uccelli annunciava il risveglio della natura.</p>
+            </div>
+            <div type="corpo">
+                <p>Nel centro della città, la piazza principale si animava pian piano. I primi commercianti aprirono le loro botteghe, mentre le bancarelle del mercato venivano allestite con cura. L'aria era pervasa dal profumo del pane appena sfornato e dalle spezie esotiche provenienti dalle terre lontane.</p>
+                <p>Nella locanda "Il Drago Dorato", i viandanti si preparavano a partire per le loro avventure. Un gruppo di giovani eroi discuteva animatamente intorno a un tavolo, pianificando il loro prossimo viaggio alla ricerca di antichi tesori e pericolose creature.</p>
+                <p>Nel frattempo, nella casa accanto alla locanda, la signora Jenkins si affrettava a preparare la colazione per i suoi tre figli. La sua giornata iniziava presto e sarebbe stata piena di impegni, tra la gestione della fattoria e le faccende domestiche.</p>
+                <p>Mentre la vita quotidiana prendeva il via, nell'ufficio del sindaco si svolgeva una riunione importante. Si discuteva di progetti per migliorare l'infrastruttura della città e di nuove leggi da promulgare per garantire il benessere di tutti i cittadini.</p>
+                <p>Nel parco pubblico, un anziano signore passeggiava lentamente, godendo della tranquillità del mattino. Sedette su una panchina e osservò il mondo intorno a sé con un sorriso sereno, grato per ogni nuovo giorno che gli veniva concesso di vivere.</p>
+            </div>
+            <div type="conclusione">
+                <p>Mentre il sole saliva alto nel cielo, Greenfield si svegliava completamente. Le strade si riempivano di persone che andavano e venivano, ognuna con i propri sogni, speranze e paure. Ma in quel momento, tutto sembrava possibile, e il futuro brillava come il sole nel cielo azzurro di primavera.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
