@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Author: Matilde Campanardi
+Date: 26/04/2024 
+Validato con xmllint e dom.Counter -->
+<!DOCTYPE TEI SYSTEM "gramm_articolo.dtd">
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title level="a">Esempio di marcatura TEI di un articolo di rivista</title>
+                <respStmt>
+                    <resp>Conversione TEI a cura di </resp>
+                    <name>Matilde Campanardi</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <date>26-04-2024</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title level="a" type="main">Piante carnivore: come fanno a nutrirsi e a sopravvivere (anche nei luoghi più inospitali)?</title>
+                    <author>Sandy Ong</author>
+                    <publisher>National Geographic</publisher>
+                    <date>13-02-2024</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="intro">
+                <title level="a" type="sub">Nel corso del tempo le piante carnivore si sono evolute in modi ingegnosi, ispirando innovazioni che vanno dagli spray antiaderenti agli idrorepellenti. Quali altri misteri nascondono?</title>
+                <figure>
+                    <graphic url="https://www.nationalgeographic.it/upload/ngi-hero/hero-18632-Fauci.jpeg?w=1600&amp;h=900"/>
+                    <p>La superficie scivolosa di una pianta tropicale fa cadere le vittime nelle sue fauci. Questo genere di pianta carnivora con trappola ad ascidio si nutre di insetti e piccoli animali.</p>
+                    <p>FOTOGRAFIA DI <name>HELENE SCHMITZ</name>, <name><foreign xml:lang="en">NAT GEO IMAGE COLLECTION</foreign></name></p>
+                </figure>
+                <p>Le piante carnivore hanno da tempo catturato l'immaginario popolare grazie anche a cult cinematografici come <title type="film" rend="italic">“La famiglia Addams”</title> e <title type="film" rend="italic">“La piccola bottega degli orrori”</title> che le hanno rappresentate come temibili mostri divoratori di carne. Ma le loro controparti nel mondo reale, anche se meno assetate di sangue, sono altrettanto affascinanti.</p>
+                <p><q>Di solito pensiamo alle piante come alla base della catena alimentare</q>, dice <name>Laurence Gaume</name>, scienziata del <name rend="italic">Centro Nazionale Francese per la Ricerca Scientifica</name>. Ma le piante carnivore - definite come quelle in grado di attirare, catturare e digerire una preda - <q>"ribaltano le leggi della natura con la loro sorprendente capacità di nutrirsi di animali"</q>.</p>
+                <p>Di questo eclettico insieme, le piante carnivore con trappola ad ascidio costituiscono uno dei gruppi più numerosi. Si distinguono facilmente dalle loro cugine carnivore, come le Venere acchiappamosche, le drosere e quelle con trappole ad aspirazione in quanto hanno foglie modificate che si ripiegano insieme per formare una profonda cavità riempita di un liquido che aiuta a digerire piccoli animali, soprattutto insetti.</p>
+            </div>
+            <div type="corpo">
+                <div>
+                    <head>L'evoluzione del gusto per la carne</head>
+                    <p>La creazione di queste <soCalled>"foglie evolute"</soCalled> costa alle piante con trappola ad ascidio <q>"molte risorse metaboliche"</q>,
+                        afferma <name>Barry Rice</name>, astrobiologo e botanico del <name rend="italic">Sierra College</name> in <name>California</name>,
+                        che ha coltivato più di 800 piante della famiglia delle <name rend="italic"><foreign xml:lang="la">Sarraceniaceae</foreign></name>.
+                        Tuttavia, le piante con trappola ad ascidio perseverano perché in questo modo possono prosperare in ambienti altrimenti inospitali,
+                        come le cime delle montagne, le paludi e l'arenaria ricca di minerali. In questi terreni poveri di nutrienti, la dieta animale
+                        delle piante fornisce loro l'azoto che altrimenti potrebbe scarseggiare.</p>
+                    <p><q>Essere carnivora per la pianta è una strategia così efficace che si è evoluta più volte in modo indipendente tra diversi tipi non imparentati</q>, spiega <name>Rice</name>. <q>"È un esempio notevole di evoluzione convergente"</q>.</p>
+                </div>
+                <div>
+                    <head>Una trappola mortale</head>
+                    <p>Indipendentemente dal modo in cui si sono evolute, tutte le piante con trappola ad ascidio impiegano <q>"più o meno lo stesso tipo di meccanismo di cattura basato sulla gravità"</q>, afferma <name>Alastair Robinson</name>, botanico presso il <name rend="italic"><foreign xml:lang="en">Royal Botanic Gardens Victoria</foreign></name> dell'<name>Australia</name>.</p>
+                    <p>Il primo passo consiste nell'attirare le prede verso la trappola, cosa che la maggior parte delle piante ottiene con nettare dolce o colori vivaci. Alcune usano anche l'odore, cambiando gli aromi che producono per attirare diversi tipi di prede, come <name>Gaume</name> e i suoi colleghi descrivono in un articolo del 2023. Le trappole che rilasciano profumi floreali, hanno scoperto, catturano più api e falene, mentre quelle che emettono odori di acidi grassi catturano più mosche e formiche.</p>
+                    <figure>
+                        <graphic url="https://www.nationalgeographic.it/upload/ngi-image/img-18635-Formica.jpeg?w=710&amp;h=474"/>
+                        <p>La pianta carnivora Nepenthes biclacarata e la formica Camponotes schmitzi hanno un rapporto mutualistico: mentre la pianta ospita una piccola colonia di circa 30 formiche, le formiche mantengono pulito il liquido della trappola, rimuovendo i grossi insetti che marciscono al suo interno.</p>
+                        <p>FOTOGRAFIA DI <name>CHRISTIAN ZIEGLER</name></p>
+                    </figure>
+                    <p><q>Una volta che la preda è giunta sull’orlo della trappola, è già al punto di non ritorno. I bordi sono notoriamente scivolosi: molti comprendono uno strato di cristalli di cera che assomiglia al "rivestimento scivoloso di un piano di Teflon", mentre altri hanno superfici "permeabili" che fanno scivolare gli insetti direttamente nella trappola, un po’ come le automobili sbandano su una strada bagnata</q>, spiega <name>Ulrike Bauer</name>, ricercatrice dell'Università di <name>Exeter</name> in <name>Inghilterra</name>, che studia la meccanica del movimento delle piante.</p>
+                    <p>Una volta catturate, due cose impediscono una fuga precipitosa: peli rivolti verso il basso che rivestono la parete interna della trappola e una pozza di liquido che a volte è così viscoelastico da assomigliare a sabbie mobili. Questa sostanza è anche quella che suona la campana a morto per le prede, contenendo enzimi o microrganismi che avviano la digestione.</p>
+                    <p>Nel <name>Borneo</name> alcune specie di piante di montagna con trappola ad ascidio si sono addirittura evolute senza diventare carnivore, modificando la loro dieta per adattarsi meglio a determinate nicchie. Invece di cibarsi di insetti, raccolgono le feci dei toporagni che si siedono su di loro e si nutrono delle secrezioni grasse che producono.</p>
+                    <figure>
+                        <graphic url="https://www.nationalgeographic.it/upload/ngi-image/img-18635-Formica.jpeg?w=710&amp;h=474"/>
+                        <p>La <name><foreign>Nepenthes rajah</foreign></name>, a rischio di estinzione, può contenere fino a 12 tazze di liquido ed è endemica delle montagne della <name>Malesia</name>. Gli scandenti e i ratti notturni forniscono a questa pianta fosforo e azoto, nutrienti essenziali, defecando nelle sue aperture.</p>
+                        <p>FOTOGRAFIA DI <name>CHRISTIAN ZIEGLER</name></p>
+                    </figure>
+                    <p><q>"È una fonte di nutrimento alternativa perché più si sale di quota, meno insetti ci sono"</q>, dice <name>Robinson</name>, che nel 2022 ha dimostrato che gli escrementi degli animali permettono a queste piante di acquisire il doppio dell'azoto rispetto alle loro controparti di pianura. <q>"Gli animali che apportano nutrimento sotto forma di feci le fanno vincere facile"</q>, afferma.</p>
+                </div>
+                <div>
+                    <head>Minacce e scoperte</head>
+                    <p>Le piante con trappola ad ascidio sono sempre più minacciate. Ci sono 68 specie di <name rend="italic"><foreign>Nepenthes</foreign></name> attualmente elencate come in pericolo critico, in pericolo o vulnerabili dall'<name rend="italic">Unione Mondiale per la Conservazione della Natura (IUCN)</name>; mentre tre specie di <name rend="italic"><foreign>Sarracenia</foreign></name> sono protette dall'<name rend="italic"><foreign xml:lang="en">Endangered Species Act</foreign></name> statunitense.</p>
+                    <p>La perdita di habitat dovuta al disboscamento dei terreni per le piantagioni di palma da olio e l'agricoltura, così come i cambiamenti climatici, sono le principali minacce. Ma anche la raccolta mirata di piante per il commercio orticolo. <q>"Il traffico illegale minaccia un terzo di tutte le specie di Nepenthes"</q>, afferma <name>Robinson</name>. <q>"È il numero più alto di specie minacciate per qualsiasi gruppo di piante carnivore"</q>.</p>
+                    <figure>
+                        <graphic url="https://www.nationalgeographic.it/upload/ngi-image/img-18635-Formica.jpeg?w=710&amp;h=474"/>
+                        <figDesc>Una vista laterale di <name><foreign>Nepenthes rajah</foreign></name> mostra larve di zanzara visibili.</figDesc>
+                        <p>FOTOGRAFIA DI <name>CHRISTIAN ZIEGLER</name></p>
+                    </figure>
+                </div>
+            </div>
+            <div type="concl">
+                <p>L'estinzione delle piante carnivore con trappola ad ascidio non sarebbe solo una perdita per i loro ecosistemi, ma anche per il progresso umano: le loro notevoli proprietà hanno ispirato una serie di innovazioni, tra cui i rivestimenti antiaderenti negli spray per la pulizia e materiali idrorepellenti in ambito industriale.</p>
+                <p>Inoltre, c'è ancora <q>"molto che non sappiamo"</q> sulle piante con trappola ad ascidio, dice <name>Rice</name>.</p>
+                <p>Gli scienziati continuano ad apprendere nozioni sulle loro diverse relazioni ecologiche, i loro meccanismi di predazione e a scoprire nuove specie. L'anno scorso un’équipe indiana ha individuato la presenza di neurotossine nel nettare prodotto dalla <name><foreign>Nepenthes khasiana</foreign></name>. Nel 2022 un altro gruppo di ricercatori ha segnalato una nuova specie, <name><foreign>Nepenthes pudica</foreign></name>, in <name>Indonesia</name>, le cui trappole crescono sottoterra. Nello stesso anno <name>Bauer</name> e i suoi colleghi hanno dimostrato come due specie non imparentate del <name>Borneo</name> e delle <name>Seychelles</name> abbiano evoluto dei <soCalled>“coperchi”</soCalled> che, quando vengono attivati dalle gocce di pioggia, fungono da trampolini che catapultano gli insetti nelle loro trappole.</p>
+                <p><q>"Abbiamo ancora molte domande aperte sulle piante carnivore con trappola ad ascidio"</q>, afferma l'autrice. <q>"C'è ancora molto da scoprire"</q>.</p>
+                <figure>
+                    <graphic url="https://www.nationalgeographic.it/upload/ngi-image/img-18635-Formica.jpeg?w=710&amp;h=474"/>
+                    <p>Le piante carnivore sono sempre più a rischio a causa della perdita di habitat, dei cambiamenti climatici e del commercio di piante esotiche.</p>
+                    <p>FOTOGRAFIA DI <name>THOMAS PESCHAK</name>, <name><foreign xml:lang="en">NAT GEO IMAGE COLLECTION</foreign></name></p>
+                </figure>
+            </div>
+        </body>
+    </text>
+</TEI>

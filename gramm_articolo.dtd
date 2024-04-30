@@ -1,0 +1,43 @@
+<!-- Author: Matilde Campanardi
+Date: 26/04/2024 
+Ref: "articolo_rivista.xml" -->
+
+<!ELEMENT TEI (teiHeader, text)>
+<!ELEMENT teiHeader (fileDesc)>
+<!ELEMENT fileDesc (titleStmt, publicationStmt, sourceDesc)>
+<!ELEMENT titleStmt (title, respStmt)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT respStmt (resp, name)>
+<!ELEMENT resp (#PCDATA)>
+<!ELEMENT name (#PCDATA | foreign)*>
+<!ELEMENT publicationStmt (publisher, date)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT sourceDesc (bibl)>
+<!ELEMENT bibl (title, author, publisher, date)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT text (body)>
+<!ELEMENT body (#PCDATA | div)*>
+<!ELEMENT div (title?, (div | head | p | figure)+)>
+<!ATTLIST div type CDATA #IMPLIED>
+<!ELEMENT head (#PCDATA)>
+<!ELEMENT figure (graphic, figDesc?, p+)>
+<!ELEMENT graphic EMPTY>
+<!ATTLIST graphic
+    url CDATA #REQUIRED
+>
+<!ELEMENT figDesc (#PCDATA | name | foreign)*>
+<!ELEMENT p (#PCDATA | name | q | title | soCalled)*>
+<!ATTLIST name
+    rend CDATA #IMPLIED
+>
+<!ELEMENT q (#PCDATA)>
+<!ELEMENT foreign (#PCDATA)>
+<!ATTLIST foreign
+   xml:lang CDATA #IMPLIED
+>
+<!ATTLIST title level CDATA #IMPLIED
+            type CDATA #IMPLIED
+            rend CDATA #IMPLIED
+>
+<!ELEMENT soCalled (#PCDATA)>
