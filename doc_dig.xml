@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Author: Matilde Campanardi
+Date: 04/05/2024  -->
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Esempio di marcatura TEI di un documento storico</title>
+                <respStmt>
+                    <resp>Conversione TEI a cura di</resp>
+                    <name>Matilde Campanardi</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <date>04-05-2024</date>
+            </publicationStmt>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>
+                25 Apri<damage>le 1</damage>920 - 29 Luglio 1940 - Vent'anni: appena il limitare della vita - ma breve e luminosa veramente, come dice il ricordo marmoreo - promessa, speranza, strazio.
+                <add place="above">Tenue trama di vicende che si svolgono tra casa e scuola, il formarsi e lo sbocciare di <choice> <sic>un</sic> <corr resp="#MatildeCampanardi" >un'</corr> </choice> anima eletta, di un'intelligenza eccezionale:</add>
+                Concedete a chi l'ha conosciuto nella prima infanzia, di rievocare anche i ricordi di quei primi anni, <del>di</del> felici. <del rend="overstrike">quando si apriva giocondamente alla vita.</del>
+            </p>
+        </body>
+    </text>
+</TEI>
